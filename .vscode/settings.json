@@ -1,0 +1,16 @@
+{
+  "java.project.sourcePaths": ["src"],
+  "java.project.outputPath": "bin",
+  "java.debug.settings.forceBuildBeforeLaunch": true,
+  "terminal.integrated.cwd": "${workspaceFolder}",
+
+  "java.project.templates.fileHeader": [
+    "public class ${fileBasenameNoExtension} {",
+    "",
+    "    public static void main(String[] args) {",
+    "        ",
+    "    }",
+    "",
+    "}"
+  ]
+}
